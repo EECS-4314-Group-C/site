@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+body {
+  font-family: "Inter", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  background: #f7f8fa;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Inter", "Segoe UI", Arial, sans-serif;
+  background: #f7f8fa;
+  color: #222;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  text-align: center;
+  padding: 2rem 0 1rem 0;
+  background: #fff;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 0;
+  letter-spacing: 1px;
+}
+.subtitle {
+  color: #6b7280;
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+}
+
+main {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 3rem;
+  flex: 1;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+section {
+  margin-bottom: 2.5rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.members h2,
+.resources h2,
+.assignments h2,
+.reports h2 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: #374151;
+}
+
+.member-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 2rem;
+  border: 1px solid #e5e7eb;
+}
+.member-table th,
+.member-table td {
+  padding: 1rem 1.2rem;
+  text-align: left;
+}
+.member-table th {
+  background: #e5e7eb;
+  color: #374151;
+  font-weight: 600;
+  font-size: 1.08rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+.member-table td {
+  font-size: 1rem;
+  color: #374151;
+  border-bottom: 1px solid #e5e7eb;
+}
+.member-table tr:last-child td {
+  border-bottom: none;
+}
+
+.resources ul {
+  list-style: none;
+  padding: 0;
+}
+.resources li {
+  margin-bottom: 0.7rem;
+  font-size: 1.05rem;
+}
+.empty {
+  color: #9ca3af;
+  font-style: italic;
+}
+
+footer {
+  text-align: center;
+  padding: 1.2rem 0;
+  background: #fff;
+  border-top: 1px solid #e5e7eb;
+  color: #6b7280;
+  font-size: 0.95rem;
+  margin-top: 3rem;
+}
